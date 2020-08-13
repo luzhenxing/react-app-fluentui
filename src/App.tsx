@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { PrimaryButton } from '@fluentui/react'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <br/>
+        <PrimaryButton text="text button" />
       </header>
     </div>
   );

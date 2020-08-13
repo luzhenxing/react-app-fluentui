@@ -1168,6 +1168,52 @@
   resolved "https://registry.npm.taobao.org/@csstools/normalize.css/download/@csstools/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha1-8JULuhiBlRLUL3GX5WxRiqSRzxg=
 
+"@fluentui/date-time-utilities@^7.4.1":
+  version "7.4.1"
+  resolved "https://registry.npm.taobao.org/@fluentui/date-time-utilities/download/@fluentui/date-time-utilities-7.4.1.tgz#fdd56757b48ddea219934aab46c4fdfd83aaa2a3"
+  integrity sha1-/dVnV7SN3qIZk0qrRsT9/YOqoqM=
+  dependencies:
+    "@uifabric/set-version" "^7.0.20"
+    tslib "^1.10.0"
+
+"@fluentui/keyboard-key@^0.2.9":
+  version "0.2.9"
+  resolved "https://registry.npm.taobao.org/@fluentui/keyboard-key/download/@fluentui/keyboard-key-0.2.9.tgz?cache=0&sync_timestamp=1597041051982&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40fluentui%2Fkeyboard-key%2Fdownload%2F%40fluentui%2Fkeyboard-key-0.2.9.tgz#57bc89e8b24ce085c68b33fc9c87d6c85fcc1bf2"
+  integrity sha1-V7yJ6LJM4IXGizP8nIfWyF/MG/I=
+  dependencies:
+    tslib "^1.10.0"
+
+"@fluentui/react-focus@^7.12.31":
+  version "7.12.31"
+  resolved "https://registry.npm.taobao.org/@fluentui/react-focus/download/@fluentui/react-focus-7.12.31.tgz?cache=0&sync_timestamp=1597041053739&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40fluentui%2Freact-focus%2Fdownload%2F%40fluentui%2Freact-focus-7.12.31.tgz#d90b3bb3d749051a92d7c63da01bf8f636e4de48"
+  integrity sha1-2Qs7s9dJBRqS18Y9oBv49jbk3kg=
+  dependencies:
+    "@fluentui/keyboard-key" "^0.2.9"
+    "@uifabric/merge-styles" "^7.16.5"
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/styling" "^7.14.11"
+    "@uifabric/utilities" "^7.27.0"
+    tslib "^1.10.0"
+
+"@fluentui/react-icons@^0.1.46":
+  version "0.1.46"
+  resolved "https://registry.npm.taobao.org/@fluentui/react-icons/download/@fluentui/react-icons-0.1.46.tgz?cache=0&sync_timestamp=1597041053539&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40fluentui%2Freact-icons%2Fdownload%2F%40fluentui%2Freact-icons-0.1.46.tgz#89be59faeace2de2c3c0433302c50aaa78743299"
+  integrity sha1-ib5Z+urOLeLDwEMzAsUKqnh0Mpk=
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.10.26"
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/utilities" "^7.27.0"
+    tslib "^1.10.0"
+
+"@fluentui/react@^7.127.1":
+  version "7.127.1"
+  resolved "https://registry.npm.taobao.org/@fluentui/react/download/@fluentui/react-7.127.1.tgz#6888e2cc68cf7b24d85a4bc3af83d3f489d778ec"
+  integrity sha1-aIjizGjPeyTYWkvDr4PT9InXeOw=
+  dependencies:
+    "@uifabric/set-version" "^7.0.20"
+    office-ui-fabric-react "^7.127.1"
+    tslib "^1.10.0"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npm.taobao.org/@hapi/address/download/@hapi/address-2.1.4.tgz?cache=0&sync_timestamp=1593993836406&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40hapi%2Faddress%2Fdownload%2F%40hapi%2Faddress-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1357,6 +1403,11 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
+
+"@microsoft/load-themed-styles@^1.10.26":
+  version "1.10.68"
+  resolved "https://registry.npm.taobao.org/@microsoft/load-themed-styles/download/@microsoft/load-themed-styles-1.10.68.tgz#9a55871d38daed599f16a9d5e3e905a37c1a5a2f"
+  integrity sha1-mlWHHTja7VmfFqnV4+kFo3waWi8=
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -1754,6 +1805,71 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
+
+"@uifabric/foundation@^7.7.45":
+  version "7.7.45"
+  resolved "https://registry.npm.taobao.org/@uifabric/foundation/download/@uifabric/foundation-7.7.45.tgz?cache=0&sync_timestamp=1597041054608&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40uifabric%2Ffoundation%2Fdownload%2F%40uifabric%2Ffoundation-7.7.45.tgz#716281e13e853888d02bbd664196479ae6ad744a"
+  integrity sha1-cWKB4T6FOIjQK71mQZZHmuatdEo=
+  dependencies:
+    "@uifabric/merge-styles" "^7.16.5"
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/styling" "^7.14.11"
+    "@uifabric/utilities" "^7.27.0"
+    tslib "^1.10.0"
+
+"@uifabric/icons@^7.3.71":
+  version "7.3.71"
+  resolved "https://registry.npm.taobao.org/@uifabric/icons/download/@uifabric/icons-7.3.71.tgz?cache=0&sync_timestamp=1597041054381&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40uifabric%2Ficons%2Fdownload%2F%40uifabric%2Ficons-7.3.71.tgz#1d38ce4318e6b45b566985f47c50d9a80bdfbe94"
+  integrity sha1-HTjOQxjmtFtWaYX0fFDZqAvfvpQ=
+  dependencies:
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/styling" "^7.14.11"
+    tslib "^1.10.0"
+
+"@uifabric/merge-styles@^7.16.5":
+  version "7.16.5"
+  resolved "https://registry.npm.taobao.org/@uifabric/merge-styles/download/@uifabric/merge-styles-7.16.5.tgz#2625cba7df3a4e0774e7966078ef2268529a1794"
+  integrity sha1-JiXLp986Tgd055ZgeO8iaFKaF5Q=
+  dependencies:
+    "@uifabric/set-version" "^7.0.20"
+    tslib "^1.10.0"
+
+"@uifabric/react-hooks@^7.8.0":
+  version "7.8.0"
+  resolved "https://registry.npm.taobao.org/@uifabric/react-hooks/download/@uifabric/react-hooks-7.8.0.tgz?cache=0&sync_timestamp=1597041052829&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40uifabric%2Freact-hooks%2Fdownload%2F%40uifabric%2Freact-hooks-7.8.0.tgz#a5b6c88f66162df52899c0868614946ca5b1b97b"
+  integrity sha1-pbbIj2YWLfUomcCGhhSUbKWxuXs=
+  dependencies:
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/utilities" "^7.27.0"
+    tslib "^1.10.0"
+
+"@uifabric/set-version@^7.0.20":
+  version "7.0.20"
+  resolved "https://registry.npm.taobao.org/@uifabric/set-version/download/@uifabric/set-version-7.0.20.tgz?cache=0&sync_timestamp=1597041052175&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40uifabric%2Fset-version%2Fdownload%2F%40uifabric%2Fset-version-7.0.20.tgz#c0e404abadec51635ef381082969372c6fab5299"
+  integrity sha1-wOQEq63sUWNe84EIKWk3LG+rUpk=
+  dependencies:
+    tslib "^1.10.0"
+
+"@uifabric/styling@^7.14.11":
+  version "7.14.11"
+  resolved "https://registry.npm.taobao.org/@uifabric/styling/download/@uifabric/styling-7.14.11.tgz?cache=0&sync_timestamp=1597041054067&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40uifabric%2Fstyling%2Fdownload%2F%40uifabric%2Fstyling-7.14.11.tgz#287bccba20ac2be3fc0266be660c10efb82584b5"
+  integrity sha1-KHvMuiCsK+P8Ama+ZgwQ77glhLU=
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.10.26"
+    "@uifabric/merge-styles" "^7.16.5"
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/utilities" "^7.27.0"
+    tslib "^1.10.0"
+
+"@uifabric/utilities@^7.27.0":
+  version "7.27.0"
+  resolved "https://registry.npm.taobao.org/@uifabric/utilities/download/@uifabric/utilities-7.27.0.tgz?cache=0&sync_timestamp=1597041053286&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40uifabric%2Futilities%2Fdownload%2F%40uifabric%2Futilities-7.27.0.tgz#7c36b0e11f1bbcb0cec8dbba315169c7fb506338"
+  integrity sha1-fDaw4R8bvLDOyNu6MVFpx/tQYzg=
+  dependencies:
+    "@uifabric/merge-styles" "^7.16.5"
+    "@uifabric/set-version" "^7.0.20"
+    prop-types "^15.7.2"
+    tslib "^1.10.0"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
@@ -7259,6 +7375,25 @@ obuf@^1.0.0, obuf@^1.1.2:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/obuf/download/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha1-Cb6jND1BhZ69RGKS0RydTbYZCE4=
+
+office-ui-fabric-react@^7.127.1:
+  version "7.127.1"
+  resolved "https://registry.npm.taobao.org/office-ui-fabric-react/download/office-ui-fabric-react-7.127.1.tgz#08911a666e0ac864eb226fdf68c73680b0746855"
+  integrity sha1-CJEaZm4KyGTrIm/faMc2gLB0aFU=
+  dependencies:
+    "@fluentui/date-time-utilities" "^7.4.1"
+    "@fluentui/react-focus" "^7.12.31"
+    "@fluentui/react-icons" "^0.1.46"
+    "@microsoft/load-themed-styles" "^1.10.26"
+    "@uifabric/foundation" "^7.7.45"
+    "@uifabric/icons" "^7.3.71"
+    "@uifabric/merge-styles" "^7.16.5"
+    "@uifabric/react-hooks" "^7.8.0"
+    "@uifabric/set-version" "^7.0.20"
+    "@uifabric/styling" "^7.14.11"
+    "@uifabric/utilities" "^7.27.0"
+    prop-types "^15.7.2"
+    tslib "^1.10.0"
 
 on-finished@~2.3.0:
   version "2.3.0"
